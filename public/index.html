@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TGO - Global Pixel Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tgo-background">
+        <span>POWERED BY TGO</span>
+    </div>
+    
+    <div class="ui-layer">
+        <canvas id="muralCanvas" width="500" height="500"></canvas>
+        
+        <div class="palette">
+            <div class="color-btn active" style="background-color: #000000;" data-color="#000000"></div>
+            <div class="color-btn" style="background-color: #ff0000;" data-color="#ff0000"></div>
+            <div class="color-btn" style="background-color: #00ff41;" data-color="#00ff41"></div>
+            <div class="color-btn" style="background-color: #0000ff;" data-color="#0000ff"></div>
+            <div class="color-btn" style="background-color: #ffffff;" data-color="#ffffff"></div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
